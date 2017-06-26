@@ -19,3 +19,6 @@ set(gca,'Units','normalized','FontUnits','points','FontWeight','normal','FontSiz
 legend({'$x^2$','$x^3$'},'FontUnits','points', 'Interpreter','latex','FontSize',fontsize,'FontName','Times','Location','northeast')
 
 grid
+
+%use the painters renderer and eps file format
+print('a_nice_plot','-painters','-depsc')
